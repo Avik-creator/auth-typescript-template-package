@@ -1,0 +1,26 @@
+{
+  "name": "auth-typescript-template",
+  "version": "1.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "auth-typescript-template": "bin/auth.ts"
+  },
+  "scripts": {
+    "start": "node dist/index.js",
+    "postinstall": "echo 'Please set up your .env file with MONGO_URI and JWT_SECRET'",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.3.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0"
+  }
+}
