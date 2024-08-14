@@ -11,8 +11,19 @@
     "postinstall": "echo 'Please set up your .env file with MONGO_URI and JWT_SECRET'",
     "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "auth",
+    "typescript",
+    "template",
+    "authentication",
+    "jwt"
+  ],
+  "publisher": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avik-creator/auth-typescript-template-package.git"
+  },
+  "author": "Avik Mukherjee",
   "license": "ISC",
   "description": "",
   "devDependencies": {
